@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nas - Discography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="#" class="logo">Nas Discography</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#albums">Discography</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Nas: The Journey of Hip-Hop's Greatest Lyricist</h1>
+            <p>Explore the discography of the legendary Nas.</p>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <h2>About Nas</h2>
+        <p>Nas, born Nasir Jones in 1973, is widely regarded as one of the greatest rappers of all time. With a career spanning over 30 years, Nas has consistently shaped the landscape of hip-hop through his unparalleled lyricism, storytelling, and cultural influence. Emerging from the streets of Queensbridge, New York, his iconic debut album *Illmatic* (1994) cemented his place in rap history, showcasing his raw talent and insightful commentary on urban life. Nas's come-up was marked by his ability to blend complex wordplay with deep, introspective themes, quickly earning him respect and admiration across the industry. Through his extensive discography and continued relevance in hip-hop, Nas remains an enduring figure in the genre, influencing generations of artists and fans alike.</p>
+        <p>About, More info and some other buttons/links are currently empty, but displayed for potential of further expansion.</p>
+    </section>
+
+    
+    <section id="albums" class="albums">
+        <h2>Discography</h2>
+
+        
+        <input type="text" id="album-search" placeholder="Search albums..." onkeyup="searchAlbums()">
+
+        <div class="album-grid">
+            
+            <div class="album-card">
+                <img src="album1.jpg" alt="Album 1" loading="lazy">
+                <div class="album-info">
+                    <h3>Illmatic</h3>
+                    <p>Release Year: 1994</p>
+                    <p>Track Count: 10</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2000', '12', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            
+            <div class="album-card">
+                <img src="album2.jpg" alt="Album 2" loading="lazy">
+                <div class="album-info">
+                    <h3>It Was Written</h3>
+                    <p>Release Year: 1996</p>
+                    <p>Track Count: 14</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album3.jpg" alt="Album 3" loading="lazy">
+                <div class="album-info">
+                    <h3>I Am...</h3>
+                    <p>Release Year: 1999</p>
+                    <p>Track Count: 16</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album4.jpg" alt="Album 4" loading="lazy">
+                <div class="album-info">
+                    <h3>Nastradamus</h3>
+                    <p>Release Year: 1999</p>
+                    <p>Track Count: 15</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album5.jpg" alt="Album 5" loading="lazy">
+                <div class="album-info">
+                    <h3>Stillmatic</h3>
+                    <p>Release Year: 2001</p>
+                    <p>Track Count: 14</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album6.jpg" alt="Album 6" loading="lazy">
+                <div class="album-info">
+                    <h3>God's Son</h3>
+                    <p>Release Year: 2002</p>
+                    <p>Track Count: 14</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album7.jpg" alt="Album 7" loading="lazy">
+                <div class="album-info">
+                    <h3>Street's Disciple</h3>
+                    <p>Release Year: 2004</p>
+                    <p>Track Count: 25</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album8.jpg" alt="Album 8" loading="lazy">
+                <div class="album-info">
+                    <h3>Hip Hop Is Dead</h3>
+                    <p>Release Year: 2007</p>
+                    <p>Track Count: 17</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album9.jpg" alt="Album 9" loading="lazy">
+                <div class="album-info">
+                    <h3>Nas - Self-Titled</h3>
+                    <p>Release Year: 2008</p>
+                    <p>Track Count: 16</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album10.jpg" alt="Album 10" loading="lazy">
+                <div class="album-info">
+                    <h3>Life Is Good</h3>
+                    <p>Release Year: 2012</p>
+                    <p>Track Count: 19</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album11.jpg" alt="Album 11" loading="lazy">
+                <div class="album-info">
+                    <h3>NASIR</h3>
+                    <p>Release Year: 2018</p>
+                    <p>Track Count: 7</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album12.jpg" alt="Album 12" loading="lazy">
+                <div class="album-info">
+                    <h3>King's Disease</h3>
+                    <p>Release Year: 2020</p>
+                    <p>Track Count: 13</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album13.jpg" alt="Album 13" loading="lazy">
+                <div class="album-info">
+                    <h3>King's Disease II</h3>
+                    <p>Release Year: 2021</p>
+                    <p>Track Count: 15</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album14.jpg" alt="Album 14" loading="lazy">
+                <div class="album-info">
+                    <h3>Magic</h3>
+                    <p>Release Year: 2021</p>
+                    <p>Track Count: 9</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album15.jpg" alt="Album 15" loading="lazy">
+                <div class="album-info">
+                    <h3>King's Disease III</h3>
+                    <p>Release Year: 2023</p>
+                    <p>Track Count: 17</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album16.jpg" alt="Album 16" loading="lazy">
+                <div class="album-info">
+                    <h3>Magic II</h3>
+                    <p>Release Year: 2023</p>
+                    <p>Track Count: 11</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+            <div class="album-card">
+                <img src="album17.jpg" alt="Album 17" loading="lazy">
+                <div class="album-info">
+                    <h3>Magic III</h3>
+                    <p>Release Year: 2023</p>
+                    <p>Track Count: 15</p>
+                    <a href="#" class="more-info" onclick="openModal('Album Title', '2002', '14', 'Album details...')">More Info</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <div id="album-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Album Title</h2>
+            <p id="modal-year">Release Year: 2000</p>
+            <p id="modal-tracks">Track Count: 12</p>
+            <p id="modal-details">Detailed album information...</p>
+        </div>
+    </div>
+
+    
+    <footer id="contact">
+        <p>&copy; 2025 Nas Discography. All Rights Reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/nas">Instagram</a></li>
+            <li><a href="https://twitter.com/nas">Twitter</a></li>
+            <li><a href="https://open.spotify.com/artist/4fXqQppEd0XN6kz6w7keTT">Spotify</a></li>
+            <li><a href="https://www.linkedin.com/in/andrew-knight-ab8589243/T">My LinkedIn</a></li>
+            <li><a href="https://github.com/Andrew14k">My GitHub</a></li>
+        </ul>
+    </footer>
+
+    <button id="toggle-theme">Toggle Theme</button>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
